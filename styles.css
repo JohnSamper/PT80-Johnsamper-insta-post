@@ -1,0 +1,111 @@
+body{
+    background-color:whitesmoke;
+    color: white;
+}
+
+div{ 
+    box-sizing: border-box;
+    padding: 5px;
+    margin: auto;
+}
+div.post{
+    margin: auto;
+    text-align:left ;
+
+    background:rgb(16, 17, 22);
+    width: 450px;
+    padding-top: 5px;
+    padding-left: 0px;
+    padding-bottom: 5px;
+    padding-right: 0px;
+}
+
+.post-img img {
+    
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    padding: 0px;
+
+
+}
+
+/* Space between user info & menu */
+
+.post .post-header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 8px;
+    
+    
+}
+
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left:0;
+    padding-left: 8px;  
+}
+
+.user-info i {
+    font-size: 24px; 
+    color: #ff4500;
+}
+
+.user-text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+    color: white;
+}
+
+.user-handle {
+    font-size: 12px;
+    color: white;
+    margin: 0;
+}
+
+.options-icon {
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(247, 246, 243);
+    padding-right: 15px;
+}
+
+p.first-p-tag{
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+p{
+    padding-left: 10px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 21px; 
+    padding: 17px;
+    text-decoration: none;
+}
+.left-post-icons{
+    display: flex;
+    gap:15px;
+    margin: 0%;
+    padding: 0;
+}
+.post-icons i {
+    font-size: 25px;
+    cursor: pointer;
+}
